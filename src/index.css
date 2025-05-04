@@ -196,6 +196,10 @@ nav ul li a {
   transition: .3s;
 }
 
+.activeMenu{
+  max-height: 0;
+}
+
 .active,
 nav ul li a:hover {
   color: #fb3333;
@@ -234,7 +238,7 @@ nav ul li a:hover {
 }
 
 .slider_text {
-  padding-top: 18rem;
+  padding-top: 10rem;
 }
 
 .slider_text h3 {
@@ -1307,6 +1311,8 @@ nav ul li a:hover {
     z-index: 999;
     text-align: left;
   }
+
+  
 
   nav ul li {
     display: block;
