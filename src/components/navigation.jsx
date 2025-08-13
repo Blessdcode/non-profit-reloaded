@@ -6,9 +6,8 @@ import { AiOutlineMenu} from "react-icons/ai"
 const Navigation = () => {
     const [isOpen, setIsOpen] = useState(false);
   return (
-    // <header>
+    
     <div className="header-area">
-      {/* <!-- Navigation --> */}
       <nav>
         <div className="logo">
           <Link to="/">
@@ -47,7 +46,7 @@ const Navigation = () => {
         </div>
       </nav>
     </div>
-    // </header>
+    
   );
 };
 
