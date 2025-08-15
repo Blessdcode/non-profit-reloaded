@@ -42,7 +42,7 @@ const Navigation = () => {
           </Link>
         </div>
         <div id="menuIcon" onClick={() => setIsOpen(!isOpen)}>
-          <AiOutlineMenu size={28} />
+          <AiOutlineMenu size={30} />
         </div>
       </nav>
     </div>
